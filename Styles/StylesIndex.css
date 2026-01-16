@@ -1,3 +1,26 @@
 header ul li:nth-of-type(1) {
 	text-decoration: overline;
 }
+
+h1 {
+	color: blue;
+	text-align: center;
+	font-size: 48px;
+}
+
+.Justificado {
+	margin: auto;
+	width: 80%;
+	font-size: 18px;
+	text-align: justify;
+	padding-top: 2%;
+}
+
+img {
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	display: block;
+	margin: 0 auto;
+	padding-top: 2%;
+}
