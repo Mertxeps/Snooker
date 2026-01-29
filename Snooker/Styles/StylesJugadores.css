@@ -1,0 +1,53 @@
+header ul li:nth-of-type(6) {
+	text-decoration: overline;
+}
+
+.galeria figure {
+  width: 335px;
+  height: 225px;     /* ALTURA FIJA */
+  position: absolute;
+  top: 0;
+  left: 50px;
+  /* overflow: hidden; /* recorta lo que sobresalga */
+}
+
+.galeria figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* CLAVE */
+  display: block;
+}
+
+.galeria figcaption span {
+    font-size: 14px;
+}
+
+.ImagenJugadores {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	border: 2px solid black;
+	border-radius: 3%;
+	margin-top: 2%;
+}
+
+.ImagenJugadores:last-of-type {
+	margin-bottom: 2%;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+  font-style: italic;
+  text-align: center;
+}
+
+/* figcaption {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 2%;
+} */
